@@ -1,0 +1,77 @@
+/*SOBRE*/
+
+#sobre {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 3rem;
+    gap: 3rem;
+}
+
+/*sidebar*/
+
+#sidebar{
+    display: flex;
+    flex-direction: column;
+    background-color: #000;
+    flex: 1 1 0;
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    padding: 3rem 0;
+    margin: 2rem 2rem;
+}
+
+#sidebar img {
+    max-width: 55%;
+    border-radius: 10px;
+    position: absolute;
+    top: -0rem;
+    margin-top: 1.5rem;
+}
+
+#sidebar .title {
+    color: white;
+    background-color: blueviolet;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 13rem;
+    padding: .8rem 1.2rem;
+}
+
+#sidebar .btn {
+    padding: 1rem 1.2rem;
+    color: white;
+    background: blueviolet;
+    text-decoration: none;
+    border-radius: 3rem;
+}
+
+/* TECNOLGIAS SOBRE */
+
+.tecnologias-container-sobre {
+    margin-bottom: 3rem;
+}
+
+.tecnologias-container-sobre h1 {
+    margin-right: 6rem;
+    padding-top: 1rem;
+}
+
+.tecnologias-container-sobre .tecnologias-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding-top: 2rem;
+    margin-left: 2rem;
+}
+
+.tecnologias-container-sobre .tecnologias-grid .tecnologia-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    border: 2px solid #333;
+    width: 45%;
+    border-radius: 5px;
+}

@@ -1,0 +1,56 @@
+#information {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    text-align: left;
+    width: 80%;
+    border-radius: 10px;
+}
+
+#information .info-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: start;
+    gap: 1rem;
+    padding-bottom: .8rem;
+    margin-bottom: .8rem;
+    border-bottom: 1px solid #fff;
+    width: 100%;
+}
+
+#information .info-card h3 {
+    color: white;
+    font-size: 1rem;
+    margin-bottom: .5rem;
+}
+
+#information .info-card p {
+    color: white;
+    font-weight: bold;
+}
+
+#information .info-card svg {
+    background-color: #111;
+    padding: 0.4rem;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 12px;
+}
+
+
+#phone-icon {
+    color: #e93b81
+}
+
+#pin-icon {
+    color: #6ab5b9
+}
+
+#email-icon{
+    color: #c17ceb
+}
+    

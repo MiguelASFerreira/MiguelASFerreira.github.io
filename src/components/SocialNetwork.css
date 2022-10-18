@@ -1,0 +1,38 @@
+#social-networks {
+    border-radius: 15px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.links-sobre {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.links-sobre li {
+    margin: 1rem 1rem;
+}
+
+.links-sobre svg {
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.links-sobre svg:hover {
+    color: blueviolet;
+}
+
+
+#linkedin{
+    color: #0072b1;
+}
+
+#github{
+    color: white;
+}
+
+#social-networks .social-btn:hover svg {
+    color: blueviolet;
+}

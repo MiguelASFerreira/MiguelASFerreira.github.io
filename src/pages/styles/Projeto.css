@@ -1,0 +1,68 @@
+.text-projeto {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.projeto {
+    text-align: center;
+    background-color: #000;
+    margin: 2rem;
+    border-radius: 10px;
+    color: white;
+    padding-bottom: 1rem;
+}
+
+.projetos-container {
+    margin-bottom: 3rem;
+}  
+
+.projetos-container .projeto-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding-top: 2rem;
+    margin-left: 2rem;
+}
+
+.projetos-container .projeto-grid .projeto-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    border: 2px solid white;
+    width: 45%;
+    border-radius: 5px;
+    margin-left: 2rem;
+}
+
+.projetos-container .projeto-grid .projeto-card:hover {
+    color: blueviolet;
+}
+.projeto-card h3{
+    margin-bottom: .2rem;
+    margin-left: 1.5rem;
+}
+
+.projeto-info p {
+    margin-bottom: 2rem;
+}
+
+.projeto-info a {
+    margin-bottom: 2rem;
+}
+
+.projeto-info .btn {
+    padding: 1rem 2rem;
+    color: black;
+    background: white;
+    text-decoration: none;
+    border-radius: 3rem;
+    margin-bottom: 10rem;
+    
+}
+
+.projeto-info .btn:hover {
+    background: blueviolet;
+    color: white;
+}
