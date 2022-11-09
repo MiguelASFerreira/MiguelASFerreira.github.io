@@ -1,6 +1,6 @@
 nav {
     display: flex;
-    justify-content: end;
+    justify-content: space-between;
     background-color: #000;
     padding: 1rem 2rem;
     width: 100%;
@@ -21,5 +21,5 @@ nav a:hover {
 }
 
 .bar {
-    padding-right: 910px;   
+    padding-right: 1300px;   
 }
