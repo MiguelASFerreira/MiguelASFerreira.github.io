@@ -41,7 +41,6 @@ const tecnologias =[
 const Home = () => {
   return (
     <div>
-        <img loading='lazy' src={banner} alt="Banner" className='imagem'/>
         <div className='home'>
         <section>
           <img src={`https://github.com/MiguelASFerreira.png`} alt="Imagem GitHub" className='perfil'/>
